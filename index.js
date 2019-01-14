@@ -11,8 +11,8 @@ window.addEventListener("load", () => {
     let allCharacters = [charset1,charset2,charset3,charset4];
     
     for (var i=0 ; i < len; i++){
-      Math.random() * ;
-      return i;
+      let length2 = Math.random() * allCharacters.length;
+      return ;
     }
   }
   
