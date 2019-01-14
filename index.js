@@ -10,7 +10,7 @@ window.addEventListener("load", () => {
     let charset4 = ["!#$%&()*+,-./:;<=>?@[\]^_{|}~"];
     
     
-    let allCharacters = [charset1,charset2,charset3,charset4];
+    let allCharacters = [...charset1,charset2,charset3,charset4];
     console.log(allCharacters);
 
     let password="";
