@@ -15,8 +15,8 @@ window.addEventListener("load", () => {
     for (var i=0 ; i < len; i++){
       let length2 = Math.random() * allCharacters.length;
       password += allCharacters[length2];
-      return password;
     }
+    return password;
   }
 
 });
