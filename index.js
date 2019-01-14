@@ -18,5 +18,7 @@ window.addEventListener("load", () => {
     }
     return password;
   }
+  
+  console.log(passwordGenerator)
 
 });
