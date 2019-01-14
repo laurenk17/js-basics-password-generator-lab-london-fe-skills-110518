@@ -25,5 +25,5 @@ window.addEventListener("load", () => {
   }
   
   console.log(passwordGenerator(7))
-  document.getElementById("result").innerHTML = passwordGenerator(len)
+  document.getElementById("result").innerHTML = passwordGenerator(length)
 });
