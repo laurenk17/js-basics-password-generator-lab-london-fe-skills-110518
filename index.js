@@ -10,6 +10,8 @@ window.addEventListener("load", () => {
     
     let allCharacters = [charset1,charset2,charset3,charset4];
     
+    let password=""
+    
     for (var i=0 ; i < len; i++){
       let length2 = Math.random() * allCharacters.length;
       allCharacters[length2]
