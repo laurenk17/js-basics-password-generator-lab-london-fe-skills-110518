@@ -10,14 +10,13 @@ window.addEventListener("load", () => {
     
     let allCharacters = [charset1,charset2,charset3,charset4];
     
-    let password=""
+    let password="";
     
     for (var i=0 ; i < len; i++){
       let length2 = Math.random() * allCharacters.length;
-      
-      password += allCharacters[length2]
-      
+      password += allCharacters[length2];
+      return password;
     }
   }
-  
+
 });
