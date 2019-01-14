@@ -19,11 +19,11 @@ window.addEventListener("load", () => {
       let length2 = Math.floor(Math.random() * allCharacters.length);
       
       password += allCharacters[length2];
-      console.log(length2)
+      console.log(length2);
     }
     return password;
   }
   
-  console.log(passwordGenerator(7))
-  document.getElementById("result").innerHTML = passwordGenerator(length)
+  console.log(passwordGenerator(7));
+  document.getElementById("result").innerHTML = passwordGenerator(length);
 });
